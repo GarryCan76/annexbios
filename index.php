@@ -1,2 +1,2 @@
 <?php
-echo tst:
+echo test:
