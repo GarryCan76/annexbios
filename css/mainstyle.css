@@ -4,9 +4,9 @@
 }
 
 body{
-    background-color: #000000;
+    background-image: url('./assets/header/header_afbeelding.jpg');
+    background-repeat: no-repeat;
 }
-
 
 .navbar{
     width: 100%;
@@ -25,7 +25,7 @@ body{
 }
 
 .navbar_onderkant{
- grid-template-rows: auto; 
+  flex-direction: row;
 }
 
 .seach{
