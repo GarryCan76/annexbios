@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+}
+
+
+.navbar{
+    width: 100%;
+    height: 150px;
+    background-color: #797979;
+}
+
+.kop{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.navbar_koop{
+    margin: 10px 20px 0px 20px;
+}
+
+.navbar_onderkant{
+ grid-template-rows: auto; 
+}
+
+.seach{
+    width: 70px;
+    height: 20px;
+    border: 1px white solid;
+}
