@@ -48,7 +48,6 @@ GROUP BY
 ";
 } else {
     $sql = "SELECT id, name, poster, release_date FROM movies";
-    echo $sql;
 }
 $result = mysqli_query($connection, $sql) or die("Error in Selecting " . mysqli_error($connection));
 while($row =mysqli_fetch_assoc($result)) {
