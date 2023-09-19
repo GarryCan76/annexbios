@@ -30,12 +30,11 @@
             <div class="header_button"><p class="header_knoptekst">BEKIJK ONZE VESTIGINGEN</p></div>
         </div>
         <div class="vestigingen">
-            <div class="vestiging1"></div>
-            <div class="vestiging1"></div>
-            <div class="vestiging1"></div>
-            <div class="vestiging1"></div>
-            <div class="vestiging1"></div>
-            <div class="vestiging1"></div>
+            <div class="vestiging" id="vestiging1"> <img src="<?php   ?>" alt="foto van de film"></div>
+            <div class="vestiging"></div>
+            <div class="vestiging"></div>
+            <div class="vestiging"></div>
+            <div class="vestiging"></div>
         </div>
         <div class="aanbevolenfilms_tussenkopje">
             <h2 class="aanbevolen_films_title">AANBEVOLEN FILMS</h2>

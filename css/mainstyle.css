@@ -128,12 +128,16 @@ h1{
     flex-wrap: wrap;
 }
 
-.vestiging1{
+.vestiging{
     width: 28.2%;
     height: 320px;
     margin: 0 1% 20px 0;
     background-color: white;
 }
+
+/* #vestiging1{
+
+} */
 
 .aanbevolen_films_title{
     color: white;
