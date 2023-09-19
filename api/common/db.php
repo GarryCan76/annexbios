@@ -4,7 +4,7 @@ $username = 'root';
 $password = '';
 $dbName = 'module_11';
 
-
+echo "test";
 $connection = mysqli_connect($servername, $username, $password, $dbName);
 
 if (!$connection){
