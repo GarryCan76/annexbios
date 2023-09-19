@@ -1,9 +1,6 @@
 <?php
 require_once "./db.php";
 
-
-
-
 $moviearray = array();
 
 if (isset($_GET['id'])){

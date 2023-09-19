@@ -2,8 +2,7 @@
 $servername = 'localhost';
 $username = 'root';
 $password = '';
-$dbName = 'module_11';
-
+$dbName = 'AnnexBios';
 
 $connection = mysqli_connect($servername, $username, $password, $dbName);
 

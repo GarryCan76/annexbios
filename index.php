@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Annexbios hoofdkantoor</title>
+    <title>Annexbios</title>
     <link href="./css/mainstyle.css?t=<?php echo time() ?>" rel="stylesheet"  /> 
 </head>
 
@@ -30,16 +30,48 @@
             <div class="header_button"><p class="header_knoptekst">BEKIJK ONZE VESTIGINGEN</p></div>
         </div>
         <div class="vestigingen">
-            <div class="vestiging" id="vestiging1"> <img src="<?php   ?>" alt="foto van de film"></div>
-            <div class="vestiging"></div>
-            <div class="vestiging"></div>
-            <div class="vestiging"></div>
-            <div class="vestiging"></div>
+            <div class="vestiging" id="vestiging1">
+                <img class="foto_vestiging" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIz3GryzUBx3wsZlI5bGqv2x5VW6xfuuhIPM75VmU4Q&s" alt="foto van de film">
+                <h2 class="naam_vestiging">HELLEVOETSLUIS</h2>
+                <p class="locatie_vestiging">Rijksstraatweg 42, 3223 KA</p>
+                <div class="button_naarvestiging" style="background-color: #B97D46;"><span>BEZOEK WEBSITE</p></div>
+            </div>
+            <div class="vestiging" id="vestiging1">
+                <img class="foto_vestiging" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIz3GryzUBx3wsZlI5bGqv2x5VW6xfuuhIPM75VmU4Q&s" alt="foto van de film">
+                <h2 class="naam_vestiging">HELLEVOETSLUIS</h2>
+                <p class="locatie_vestiging">Rijksstraatweg 42, 3223 KA</p>
+                <div class="button_naarvestiging" style="background-color: #9E2629;"><span>BEZOEK WEBSITE</p></div>
+            </div>
+            <div class="vestiging" id="vestiging1">
+                <img class="foto_vestiging" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIz3GryzUBx3wsZlI5bGqv2x5VW6xfuuhIPM75VmU4Q&s" alt="foto van de film">
+                <h2 class="naam_vestiging">HELLEVOETSLUIS</h2>
+                <p class="locatie_vestiging">Rijksstraatweg 42, 3223 KA</p>
+                <div class="button_naarvestiging" style="background-color: #8B9E51;"><span>BEZOEK WEBSITE</p></div>
+            </div>
+            <div class="vestiging" id="vestiging1">
+                <img class="foto_vestiging" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIz3GryzUBx3wsZlI5bGqv2x5VW6xfuuhIPM75VmU4Q&s" alt="foto van de film">
+                <h2 class="naam_vestiging">HELLEVOETSLUIS</h2>
+                <p class="locatie_vestiging">Rijksstraatweg 42, 3223 KA</p>
+                <div class="button_naarvestiging" style="background-color: #6E4F7D;"><span>BEZOEK WEBSITE</p></div>
+            </div>
+            <div class="vestiging" id="vestiging1">
+                <img class="foto_vestiging" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpIz3GryzUBx3wsZlI5bGqv2x5VW6xfuuhIPM75VmU4Q&s" alt="foto van de film">
+                <h2 class="naam_vestiging">HELLEVOETSLUIS</h2>
+                <p class="locatie_vestiging">Rijksstraatweg 42, 3223 KA</p>
+                <div class="button_naarvestiging" style="background-color: #4596BA;"><span>BEZOEK WEBSITE</p></div>
+            </div>
+            <div class="vestiging">
+                <h2 class="naam_overigevestigingen">WETEN WAAR WIJ NOG <br> MEER KOMEN?</h2>
+                <p class="teskt_overigevestigingen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore alias voluptatibus quaerat?</p>
+                <div class="button_overigevestigingen">BEKIJK NIEUWE PROJECTEN</div>
+            </div>
         </div>
         <div class="aanbevolenfilms_tussenkopje">
             <h2 class="aanbevolen_films_title">AANBEVOLEN FILMS</h2>
             <div class="aanbevolen_films_div">
-                <div class="aanbevolen_films"></div>
+                <div class="aanbevolen_films">
+                    
+                </div>
                 <div class="aanbevolen_films"></div>
                 <div class="aanbevolen_films"></div>
                 <div class="aanbevolen_films"></div>

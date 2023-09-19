@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
 </head>
 <body>
 <div id="movielist"></div>
 </body>
+<p>test</p>
 <script>
     async function logMovies(){
         const response = await fetch("./common/main.php")
@@ -21,7 +23,6 @@
                 const response = await fetch("./common/main.php?id="+movies[i].id+"")
                 const movieDetail = await response.json();
                 console.log(movieDetail)
-
             });
             p.innerHTML = movies[i].name;
             movielist.appendChild(p)
