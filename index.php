@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Annexbios hoofdkantoor</title>
-    <link href="mainstyle.css" rel="stylesheet" />
+    <link href="./css/mainstyle.css?t=<?php echo time() ?>" rel="stylesheet"  /> 
 </head>
+
+<!-- begin van de body -->
 <body>
     <nav class="navbar">
         <div class="kop">
@@ -47,9 +49,9 @@
             </div>
         </div>
 
-        <!-- wij gaan het nieuws overslaan  -->
-        <div class="news_tussenkopje"></div>   
-        <div class="news"></div>
+        <!-- wij gaan het nieuws kopje overslaan  -->
+        <!-- <div class="news_tussenkopje"></div>   
+        <div class="news"></div> -->
 
     <footer id="footer">
         <div class="footer_div1">
@@ -61,9 +63,30 @@
         </div>
         <div class="footer_div2">
             <h2 class="navigeer_tekst">NAVIGEER</h2>
+            <ul>
+                <li class="list_item">Werken bij</li>
+                <li class="list_item">Veelgestelde vragen</li>
+                <li class="list_item">Vestigingen</li>
+                <li class="list_item">Contact</li>
+            </ul>
         </div>
-        <div class="footer_div2"><div>
+        <div class="footer_div3">
+            <h2 class="volg_ons">VOLG ONS</h2>
+            <div class="icons">
+                <i class="footer_icon">X</i>
+                <i class="footer_icon">X</i>
+                <i class="footer_icon">X</i>
+            </div>
+        </div>
     </footer>
-    <div class="voorwaarden"> <p class="laatsetekst">Voorwaarden | Privacy beleid | Cookie disclaimer</p></div>
+    <div class="voorwaarden"><p class="laatsetekst">Voorwaarden | Privacy beleid | Cookie disclaimer</p></div>
+    <script>
+        async function logMovies(){
+        const response = await fetch("./test.json")
+        const movies = await response.json();
+        console.log(movies[0].name);
+        }
+        logMovies();
+    </script>
 </body>
 </html>
