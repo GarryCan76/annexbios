@@ -70,13 +70,83 @@
             <h2 class="aanbevolen_films_title">AANBEVOLEN FILMS</h2>
             <div class="aanbevolen_films_div">
                 <div class="aanbevolen_films">
-                    
+                    <img class="foto_aanbevolen_film" src="./assets/films/deadpool.jpg" alt="aanbevolen_films">
+                    <h2 class="title_film">title film</h2>
+                    <div class="sterre_rating">
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                    </div>
+                    <h3 class="date_filmuitgekomen">Release: 7-06-2018</h3>
+                    <p class="over_de_film">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium beatae eligendi, voluptas doloribus earum natus ullam</p>
                 </div>
-                <div class="aanbevolen_films"></div>
-                <div class="aanbevolen_films"></div>
-                <div class="aanbevolen_films"></div>
-                <div class="aanbevolen_films"></div>
-                <div class="aanbevolen_films"></div>
+                <div class="aanbevolen_films">
+                    <img class="foto_aanbevolen_film" src="./assets/films/deadpool.jpg" alt="aanbevolen_films">
+                    <h2 class="title_film">title film</h2>
+                    <div class="sterre_rating">
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                    </div>
+                    <h3 class="date_filmuitgekomen">Release: 7-06-2018</h3>
+                    <p class="over_de_film">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium beatae eligendi, voluptas doloribus earum natus ullam</p>
+                </div>
+                <div class="aanbevolen_films">
+                    <img class="foto_aanbevolen_film" src="./assets/films/deadpool.jpg" alt="aanbevolen_films">
+                    <h2 class="title_film">title film</h2>
+                    <div class="sterre_rating">
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                    </div>
+                    <h3 class="date_filmuitgekomen">Release: 7-06-2018</h3>
+                    <p class="over_de_film">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium beatae eligendi, voluptas doloribus earum natus ullam</p>
+                </div>
+                <div class="aanbevolen_films">
+                    <img class="foto_aanbevolen_film" src="./assets/films/deadpool.jpg" alt="aanbevolen_films">
+                    <h2 class="title_film">title film</h2>
+                    <div class="sterre_rating">
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                    </div>
+                    <h3 class="date_filmuitgekomen">Release: 7-06-2018</h3>
+                    <p class="over_de_film">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium beatae eligendi, voluptas doloribus earum natus ullam</p>
+                </div>
+                <div class="aanbevolen_films">
+                    <img class="foto_aanbevolen_film" src="./assets/films/deadpool.jpg" alt="aanbevolen_films">
+                    <h2 class="title_film">title film</h2>
+                    <div class="sterre_rating">
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                    </div>
+                    <h3 class="date_filmuitgekomen">Release: 7-06-2018</h3>
+                    <p class="over_de_film">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium beatae eligendi, voluptas doloribus earum natus ullam</p>
+                </div>
+                <div class="aanbevolen_films">
+                    <img class="foto_aanbevolen_film" src="./assets/films/deadpool.jpg" alt="aanbevolen_films">
+                    <h2 class="title_film">title film</h2>
+                    <div class="sterre_rating">
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                        <span class="ster">X</span>
+                    </div>
+                    <h3 class="date_filmuitgekomen">Release: 7-06-2018</h3>
+                    <p class="over_de_film">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore praesentium beatae eligendi, voluptas doloribus earum natus ullam</p>
+                </div>
             </div>
         </div>
 
@@ -112,12 +182,24 @@
     </footer>
     <div class="voorwaarden"><p class="laatsetekst">Voorwaarden | Privacy beleid | Cookie disclaimer</p></div>
     <script>
-        async function logMovies(){
-        const response = await fetch("./test.json")
-        const movies = await response.json();
-        console.log(movies[0].name);
-        }
-        logMovies();
+        // let movieList;
+        // let movielistDom = document.querySelector("#movies");
+        // let detailDom = document.querySelector("#detail");
+
+        // fetch("https://annexbios.gluwebsite.nl/api/main.php")
+        // .then((x) => x.text())
+        // .then((y) => {
+        //     movieList = JSON.parse(y);
+        //     showList();
+        // });
+
+        // function showList(){
+        //     for(movie in showList){
+        //         document.getElmentByClassName("foto_aanbevolen_film");
+        //     }
+        // console.log(showList);
+        // }
+
     </script>
 </body>
 </html>

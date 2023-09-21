@@ -8,7 +8,6 @@
 <body>
 <div id="movielist"></div>
 </body>
-<p>test</p>
 <script>
     async function logMovies(){
         const response = await fetch("./common/main.php")
