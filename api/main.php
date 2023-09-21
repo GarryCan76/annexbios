@@ -1,4 +1,6 @@
 <?php
+header('Content-type: text/plain; charset=utf-8');
+header("Access-Control-Allow-Origin: *");
 require_once "./db.php";
 
 $moviearray = array();
@@ -44,7 +46,7 @@ GROUP BY
     m.id, m.name, m.release_date, m.description, m.poster, m.language, m.captions, m.duration, m.trailer;
 ";
 } else {
-    $sql = "SELECT id, name, poster, release_date FROM movies";
+    $sql = "SELECT id, description, name, poster, release_date FROM movies";
 }
 $result = mysqli_query($connection, $sql) or die("Error in Selecting " . mysqli_error($connection));
 while($row =mysqli_fetch_assoc($result)) {
