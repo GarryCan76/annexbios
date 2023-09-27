@@ -1,373 +1,592 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-image: url('../assets/header/header_achterground.png');
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-color: black;
-    width: 100%;
-    font-family: lato;
+body {
+  background-image: url("../assets/header/header_achterground.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  background-size: cover;
+  width: 100%;
+  font-family: lato;
 }
 
-.navbar{
-    width: 100%;
-    height: 200px;
-    background-color: #666666;
+.navbar {
+  width: 100%;
+  height: 200px;
+  background-color: #666666;
 }
 
-#logo{
-    width: 225px;
-    height: 90px;
-    margin: 15px 0 0 10%;
+#logo {
+  width: 225px;
+  height: 90px;
+  margin: 15px 0 0 10%;
 }
 
 .kop{
-    width: 100%;
-    height: 125px;
-    background-color: white;
-    color: #666666;
+  width: 100%;
+  height: 125px;
+  background-color: white;
+  color: #666666;
+}
+
+.hamburger-menu{
+  display: none;
 }
 
 .kop_tekst{
-    text-align: center;
-    display: flex;
-    justify-content: flex-end;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+
 }
 
 .kop1{
-    margin: -55px 2% 0 0px;
+  margin: -55px 2% 0 0px;
+  text-decoration: none;
+  color: #666666;
 }
 
 .kop2{
-    margin: -55px 2% 0 0px;
+  margin: -55px 2% 0 0px;
+  text-decoration: none;
+  color: #666666;
 }
 
 .kop3{
-    margin: -55px 6% 0 0px;
+  margin: -55px 6% 0 0px;
+  text-decoration: none;
+  color: #666666;
 }
 
-.navbar_onderkant{
-    display: flex;
-    justify-content: start;
-    width: 100%;
+.navbar_onderkant {
+  display: flex;
+  justify-content: start;
+  width: 100%;
 }
 
-.navbar_koop{
-    margin: 20px 0% 0px 4%;
-    color: white;
+.navbar_koop {
+  margin: 20px 0% 0px 4%;
+  color: white;
 }
 
-.seach{
-    width: 200px;
-    height: 40px;
-    margin: 15px 2% 0px 2%;
-    background-color: #C9C9C9;
-    color: white;
+.seach {
+  width: 200px;
+  height: 40px;
+  margin: 15px 2% 0px 2%;
+  background-color: #c9c9c9;
+  color: white;
 }
 
-.tekst_seach{
-    margin: 10px 0 0 8px;
+.tekst_seach {
+  margin: 10px 0 0 8px;
 }
 
-.bekijktickets{
-    width: 180px;
-    height: 30px;
-    margin: 20px 2% 0px 2%;
-    background-color: white;
+.bekijktickets {
+  width: 180px;
+  height: 30px;
+  margin: 20px 2% 0px 2%;
+  background-color: white;
 }
 
-.teks_bekijktickets{
-    text-align: center;
-    color: #666666;
-    text-align: center;
-    padding-top: 6px;
+.teks_bekijktickets {
+  text-align: center;
+  color: #666666;
+  text-align: center;
+  padding-top: 6px;
 }
 
 /** dit was de navbar */
 
-.header{
-    width: 78%;
-    height: 300px;
-    background-color: black;
-    margin: 60px 0 0 10%;
+.header {
+  width: 78%;
+  height: 300px;
+  background-color: black;
+  margin: 60px 0 0 10%;
 }
 
-h1{
-    color: white;
-    padding: 25px 0 0 3%;
-    font-size: 52px;
+h1 {
+  color: white;
+  padding: 25px 0 0 3%;
+  font-size: 52px;
 }
 
-.header_tekst{
-    padding: 30px 0 0 3%;
-    color: white;
+.header_tekst {
+  padding: 30px 0 0 3%;
+  color: white;
 }
 
-.header_button{
-    width: 250px;
-    height: 50px;
-    background-color: white;
-    margin: 50px 0 0 3%;
+.header_button {
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  margin: 50px 0 0 3%;
 }
 
-.header_knoptekst{
-    text-align: center;
-    padding-top: 15px;
-    font-weight: 700;
-    font-size: 15px;
+.header_knoptekst {
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 /** header staat hier boven */
 
-.vestigingen{
-    margin: 60px 0 0 10%;
-    display: grid;
-    grid-template-columns: repeat(3, 28.2%);
+.vestigingen {
+  margin: 60px 0 0 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 28.2%);
 }
 
-.vestiging{
-    height: 320px;
-    margin: 0 1% 20px 0;
-    background-color: white;
+.vestiging {
+  height: 320px;
+  margin: 0 1% 20px 0;
+  background-color: white;
 }
 
-.foto_vestiging{
-    width: 100%;
-    height: 150px;
+.foto_vestiging {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
 
-.naam_vestiging{
-    font-size: 26px;
-    padding: 20px 0 0 7%;
-    color: #666666;
+.naam_vestiging {
+  font-size: 26px;
+  padding: 20px 0 0 7%;
+  color: #666666;
 }
 
-.locatie_vestiging{
-    padding: 15px 0 0 7%;
-    color: #707070;
+.locatie_vestiging {
+  padding: 15px 0 0 7%;
+  color: #707070;
 }
 
-.button_naarvestiging{
-    margin: 15px 0 0 7%;
-    width: 150px;
-    height: 25px;
-    text-align: center;
-    color: white;
-    font-size: 14px;
-    padding-top: 5px;
+.button_naarvestiging {
+  margin: 15px 0 0 7%;
+  width: 150px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding-top: 5px;
 }
 
-.naam_overigevestigingen{
-    font-size: 26px;
-    color: #666666;
-    padding: 40px 0 0 7%;
+.naam_overigevestigingen {
+  font-size: 26px;
+  color: #666666;
+  padding: 40px 0 0 7%;
 }
 
-.teskt_overigevestigingen{
-    width: 350px;
-    height: auto;
-    padding: 20px 0 0 7%;
-    color: #666666;
+.teskt_overigevestigingen {
+  width: 350px;
+  height: auto;
+  padding: 20px 0 0 7%;
+  color: #666666;
 }
 
-.button_overigevestigingen{
-    width: 55%;
-    height: 25px;
-    background-color: #666666;
-    margin: 15px 0 0 7%;
-    text-align: center;
-    padding-top: 5px;
-    color: white;
+.button_overigevestigingen {
+  width: 55%;
+  height: 25px;
+  background-color: #666666;
+  margin: 15px 0 0 7%;
+  text-align: center;
+  padding-top: 5px;
+  color: white;
 }
 
 /** einde vestigingen */
 
-.aanbevolen_films_title{
-    color: white;
-    font-size: 52px;
-    margin: 80px 0 0 10%;
+.aanbevolen_films_title {
+  color: white;
+  font-size: 52px;
+  margin: 80px 0 0 10%;
 }
 
-.aanbevolen_films_div{
-    width: 78%;
-    margin: 30px 0 0 10%;
-    display: grid;
-    grid-template-columns: repeat(6, 15.7%);
-    gap: 0.5%;
+.aanbevolen_films_div {
+  width: 78%;
+  margin: 30px 0 0 10%;
+  display: grid;
+  grid-template-columns: repeat(6, 15.7%);
+  gap: 0.5%;
 }
 
-.aanbevolen_films{
-    height: 575px;
-    margin: 0 0.5% 0 0;
-    background-color: white;
+.aanbevolen_films {
+  height: 575px;
+  margin: 0 0.5% 0 0;
+  background-color: white;
 }
 
-.foto_aanbevolen_film{
-    width: 100%;
-    height: 325px;
+.foto_aanbevolen_film {
+  width: 100%;
+  height: 325px;
 }
 
-.title_film{
-    margin: 10px 0 0 7%;
-    color: #666666;
+.title_film {
+  margin: 10px 0 0 7%;
+  color: #666666;
 }
 
-.sterre_rating{
-    width: 60%;
-    height: 30px;
-    margin: 10px 0 0 7%;
+.sterre_rating {
+  width: 60%;
+  height: 30px;
+  margin: 10px 0 0 7%;
 }
 
-.ster{
-    padding: 2px 6% 0 0;
-    color: #666666;
+.ster {
+  padding: 2px 6% 0 0;
+  color: #666666;
 }
 
-.date_filmuitgekomen{
-    color: #666666;
-    margin: 0px 0 0 7%;
+.date_filmuitgekomen {
+  color: #666666;
+  margin: 0px 0 0 7%;
 }
 
-.over_de_film{
-    margin: 5px 5px 0 7%;
-    color: #666666;
+.over_de_film {
+  margin: 5px 5px 0 7%;
+  color: #666666;
 }
 
 /** einde aanvevolen films */
 
-#footer{
-    width: 100%;
-    height: 350px;
-    margin-top: 250px;
-    background-color: #666666;
-    display: flex;
+#footer {
+  width: 100%;
+  height: 350px;
+  margin-top: 250px;
+  background-color: #666666;
+  display: flex;
 }
 
-.footer_div1{
-    margin:  0 0 0 10%;
-    width: 450px;
-    height: 250px;
+.footer_div1 {
+  margin: 0 0 0 10%;
+  width: 40%;
+  height: 250px;
 }
 
-.footer_div2{
-    width: 257px;
-    height: 250px;
+.footer_div2 {
+  width: 30%;
+  height: 250px;
 }
 
-.logo_footer{
-    width: 225px;
-    height: 90px;
-    margin: 20px 0 0 0%;
-    color: white;
+.logo_footer {
+  width: 50%;
+  height: 90px;
+  margin: 20px 0 0 0%;
+  color: white;
 }
 
-.footer_tekstcontainer{
-    height: 120px;
-    width: 350px;
-    margin: 20px 0 0 0%;
+.footer_tekstcontainer {
+  height: 120px;
+  width: 350px;
+  margin: 20px 0 0 0%;
 }
 
-.footer_tekst{
-    color: white;
+.footer_tekst {
+  color: white;
 }
 
-.leestmeer{
-    height: 25px;
-    width: 110px;
-    margin: 5px 0 0 0%;
-    text-align: center;
-    padding-top: 6px;
-    background-color: white;
-    color: #666666;
+.leestmeer {
+  height: 25px;
+  width: 110px;
+  margin: 15px 0 0 0%;
+  text-align: center;
+  padding-top: 6px;
+  background-color: white;
+  color: #666666;
 }
 
-.navigeer_tekst{
-    padding: 75px 0 25px 0;
-    color: white;
+.navigeer_tekst {
+  padding: 75px 0 25px 0;
+  color: white;
 }
 
-.list_item{
-    padding: 5px 0 0 0;
-    list-style-type: none;
-    color: white;
+.list_item {
+  padding: 5px 0 0 0;
+  list-style-type: none;
+  color: white;
 }
 
-.volg_ons{
-    color: white;
-    padding: 75px 0 0 0;
+.volg_ons {
+  color: white;
+  padding: 75px 0 0 0;
 }
 
-.footer_div3{
-    width: 450px;
-    height: 250px;
+.footer_div3 {
+  width: 30%;
+  height: 250px;
 }
 
-.icons{
-    width: 250px;
-    height: 100px;
-    margin-top: 20px;
-    /* border: 1px solid white; */
-    display: flex;
+.icons {
+  width: 50%;
+  height: 100px;
+  margin-top: 20px;
+  display: flex;
 }
 
-.footer_icon{
-    width: 40px;
-    height: 40px;
-    padding: 5px 1% 0 2%;
-    font-size: 28px;
-    color: white;
+.footer_icon {
+  width: 40px;
+  height: 40px;
+  padding: 5px 1% 0 2%;
+  font-size: 28px;
+  color: white;
 }
 
 /* einde footer */
 
-.voorwaarden{
-    width: 100%;
-    height: 40px;
-    color: white;
-    background-color: black;
+.voorwaarden {
+  width: 100%;
+  height: 40px;
+  color: white;
+  background-color: black;
 }
-.laatsetekst{
-    margin: 0px 0 0 10%;
+.laatsetekst {
+  margin: 0px 0 0 10%;
 }
 
 /* media queries  */
 
 @media only screen and (max-width: 1550px) {
-    .button_overigevestigingen{
-      height: 50px;
-    }
-}   
+  .button_overigevestigingen {
+    height: 50px;
+  }
+  .aanbevolen_films_div {
+    grid-template-columns: repeat(3, 32.5%);
+    gap: 1%;
+  }
+}
 
 @media only screen and (max-width: 1300px) {
-    .vestigingen{
-        grid-template-columns: repeat(2, 43%);
-        gap: 1%;
-    }
-    .button_overigevestigingen{
-        height: 30px;
-    }
-    /* .aanbevolen_films{
-
-    } */
+  .vestigingen {
+    grid-template-columns: repeat(2, 43%);
+    gap: 1%;
+  }
+  .button_overigevestigingen {
+    height: 30px;
+  }
 }
 
-@media only screen and (max-width: 1000px){
-    .button_overigevestigingen{
-        height: 50px;
-    }
+@media only screen and (max-width: 1000px) {
+  .button_overigevestigingen {
+    height: 50px;
+  }
+  .aanbevolen_films_div {
+    grid-template-columns: repeat(2, 50%);
+    gap: 1%;
+  }
+  #footer {
+    flex-direction: column;
+    height: 1000px;
+    font-size: 150%;
+    padding-left: 20%;
+    justify-content: flex-start;
+    width: 80%;
+  }
+  .logo_footer {
+    width: 100%;
+    height: 40%;
+  }
+  .footer_div1 {
+    margin: 2%;
+    flex-grow: inherit;
+  }
+  .footer_div2 {
+    margin: 2%;
+    flex-grow: inherit;
+  }
+  .footer_div3 {
+    margin: 2%;
+    flex-grow: inherit;
+  }
+  .leestmeer {
+    width: 140px;
+    padding: 3%;
+  }
+  .footer_tekstcontainer {
+    width: 120%;
+  }
+  .footer_div2 {
+    margin-top: 150px;
+  }
 }
 
-@media only screen and (max-width: 850px){
-    .vestigingen{
-        grid-template-columns: repeat(1, 87%);
-    }
-    .button_overigevestigingen{
-        height: 30px;
-    }
-    .header{
-        height: 375px;
-    }
+@media only screen and (max-width: 850px) {
+  .vestigingen {
+    grid-template-columns: repeat(1, 87%);
+  }
+  .button_overigevestigingen {
+    height: 30px;
+  }
+  .header {
+    height: 375px;
+  }
+  .aanbevolen_films_title {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .kop_tekst{
+    display: none;
+  }
+  .hamburger-menu{
+    display: block;
+  }
+  #menu__toggle {
+    opacity: 0;
+  }
+  s #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: 0.25s;
+  }
+  .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #eceff1;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.25s;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: 0.25s;
+  }
+  .menu__item:hover {
+    background-color: #cfd8dc;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .header {
+    height: 400px;
+  }
+  .navbar{
+    height: 210px;
+  }  
+}
+
+@media only screen and (max-width: 610px) {
+  .footer_tekst {
+    width: 300px;
+    height: 256.5px;
+  }
+  .logo_footer {
+    width: 240px;
+    height: 100px;
+  }
+  .leestmeer {
+    margin-top: 25px;
+  }
+  .volg_ons {
+    width: 185px;
+    height: 44px;
+  }
+  .button_overigevestigingen {
+    width: 225px;
+  }
+  .vestiging {
+    width: 355px;
+  }
+  .aanbevolen_films_div {
+    grid-template-columns: repeat(1, 355px);
+  }
+  .over_de_film {
+    padding-left: 8px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .footer_icon {
+    margin: 3px;
+  }
+  #special_list_item {
+    width: 120px;
+    height: 29px;
+  }
+  .header {
+    height: 420px;
+    width: 355px;
+  }
+  .header_button {
+    margin-top: 40px;
+  }
+  .teskt_overigevestigingen {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header {
+    height: 400px;
+  }
+  .vestiging {
+    margin-right: 0;
+    width: 100%;
+  }
+  .aanbevolen_films {
+    margin-right: 0;
+  }
+  .aanbevolen_films_div {
+    grid-template-columns: repeat(1, 100%);
+  }
+  .header {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .button_overigevestigingen {
+    height: 50px;
+    width: 60%;
+  }
 }
