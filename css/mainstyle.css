@@ -204,7 +204,7 @@ h1 {
   margin: 80px 0 0 10%;
 }
 
-.aanbevolen_films_div {
+#aanbevolen_films_div {
   width: 78%;
   margin: 30px 0 0 10%;
   display: grid;
@@ -216,6 +216,7 @@ h1 {
   height: 575px;
   margin: 0 0.5% 0 0;
   background-color: white;
+    overflow: hidden;
 }
 
 .foto_aanbevolen_film {
